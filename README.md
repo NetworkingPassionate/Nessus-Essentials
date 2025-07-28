@@ -11,11 +11,12 @@ This project demonstrates a basic vulnerability scan using Nessus Essentials aga
 - Plugins: Default enabled plugins (with TCP/UDP checks)
   
 ## 📄 Sample Findings (Redacted)
-| Severity | Description | CVE Reference | 
-| 🔴 Critical | SMBv1 protocol detected (disabled by default) | CVE-2017-0144 | 
-| 🟠 High | OpenSSH version out-of-date | CVE-2018-15473 | 
-| 🔵 Info | ICMP timestamp responses enabled | — | 
 
+| Severity   | Description                               | CVE Reference     |
+|------------|-------------------------------------------|-------------------|
+| 🔴 Critical | SMBv1 protocol detected (disabled by default) | CVE-2017-0144     |
+| 🟠 High     | OpenSSH version out-of-date                  | CVE-2018-15473     |
+| 🔵 Info     | ICMP timestamp responses enabled             | —                 |
 
 All identifiers (hostnames, paths, usernames, MACs) have been sanitized.
 📘 Purpose & Takeaways
