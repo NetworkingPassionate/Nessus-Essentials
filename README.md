@@ -53,7 +53,7 @@ On my Windows 11 Home-Edition, I decided to use Powershell to try and solve the 
 ```powershell
 Set-SmbClientConfiguration -RequireSecuritySignature $true
 Set-SmbServerConfiguration -RequireSecuritySignature $true
-
+```
 
 ## 📘 Purpose & Takeaways
 - ✅ Practice responsible use of vulnerability scanners in controlled environments
